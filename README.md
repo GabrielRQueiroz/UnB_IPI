@@ -9,7 +9,7 @@ Este repositório contém materiais e projetos para a disciplina de Introdução
 
 ### Pré-requisitos
 
-- Python 3.10 ou superior (recomendado: 3.12.3)
+- Python 3.9 ou superior (recomendado: 3.9.5)
 - pip (gerenciador de pacotes Python)
 - Opcional: pyenv ou asdf para gerenciamento de versões Python
 
@@ -23,13 +23,13 @@ cd UnB_IPI
 
 2. (Opcional) Se você usa pyenv, a versão correta do Python será automaticamente selecionada através do arquivo `.python-version`:
 ```bash
-pyenv install 3.12.3  # se ainda não instalado
+pyenv install 3.9.5  # se ainda não instalado
 ```
 
 3. Crie e ative um ambiente virtual:
 ```bash
-python -m venv venv
-source venv/bin/activate  # No Windows: venv\Scripts\activate
+python -m venv .venv
+source .venv/bin/activate  # No Windows: venv\Scripts\activate
 ```
 
 4. Instale as dependências:
